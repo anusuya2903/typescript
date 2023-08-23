@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tiro Bangla', serif;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+}
+
+body:before{
+    content: '';
+    position: absolute;
+    top: 27%;
+    left: 12%;
+    width: 80px;
+    height: 80px;
+    background: mediumpurple;
+    border-radius: 50%;
+    opacity: .8;
+}
+
+
+.section-1 {
+    height: 5em;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35em;
+    padding-top: 1em;
+    background: #AA96DA;
+    height: 5em;
+}
+
+.section-2 {
+    height: 8em;
+    background: #C5FAD5;
+
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #FFFFD2;
+    height: 40px;
+}
+
+.text-box {
+    padding-left: 50em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search-button {
+    display: inline;
+    border-radius: 5%;
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color:mediumpurple;
+    width: 6em;
+    height: 3em;
+}
+
+.line {
+    border-top: double;
+    padding: 5px;
+    column-rule-style: double;
+}
+
+.add-task {
+    padding-left: 33em;
+    padding-bottom: 10px;
+}
+
+.add-button {
+    display: inline;
+    border-radius: 5%;
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color: mediumpurple;
+    width: 6em;
+    height: 3em;
+}
+
+.section-3 {
+    background-color: #FFFFD2;
+    height: 28em;
+    padding-left: 14em;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item {
+    padding: 10px;
+    width: 70vw;
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item .deleteButton {
+    display: inline;
+    border-radius: 5%;
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color: blueviolet;
+    width: 6em;
+    height: 2em;
+}
+
+.item span {
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 90vh;
+    resize: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through;
+  }
+  
+.green-checkbox:checked {
+    border-color: #4CAF50;
+    background-color: #4CAF50;
+}
+  
